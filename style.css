@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;    background-color: #240046;
+  }
+  
+header {
+    background-color: #3C096C;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.main {
+    margin-left: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+  
+.logo {
+    font-size: 1.5em;
+    margin-left: 10px; 
+}
+  
+.menu-btn {
+    cursor: pointer;
+    font-size: 1.5em;
+    margin-right: 10px; 
+}
+  
+.search {
+    display: flex;
+    align-items: center;
+}
+  
+.search input[type=text]{
+    border-radius: 10px;
+    width: 300px;
+    height: 20px;
+    background-color: #5A189A;
+    border: none;
+}
+  
+input {
+    padding: 5px;
+    margin-right: 5px;
+}
+  
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3C096C;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.sidebar nav ul li {
+    padding: 10px;
+}
+  
+.sidebar a {
+    text-decoration: none;
+    color: white;
+}
+  
+.main {
+    padding: 20px;
+    transition: margin-left 0.5s;
+}
+  
+.sidebar .close-btn {
+    background-color: #3C096C;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+}
+  
+.logo img {
+    width: 50px;
+    height: auto;
+    margin: 0 auto; 
+    display: block;   
+}
+  
+.sidebar nav ul li:hover {
+    background-color: #5A189A;
+    cursor: pointer;
+}
+  
+.close-btn img {
+    width: 20px;
+    height: auto;
+}
+
+.conteudos {
+    color: #fff;
+    display: flex;
+    margin-left: 50px;
+
+}
+
+h2 {
+    margin-left: 50px;
+    color: white;
+}
+
+.conteudos .retangulo-conteudos img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    transition: width 0.7s, height 0.5s; 
+    padding: 3px;
+}
+
+.conteudos .retangulo-conteudos img:hover {
+    width: 220px;
+    height: auto;
+}
